@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+/* CUSTOM PROPERTIES */
+:root {
+  --bright-orange: hsl(31, 77%, 52%);
+  --dark-cyan: hsl(184, 100%, 22%);
+  --very-dark-cyan: hsl(179, 100%, 13%);
+  --very-light-gray: hsl(0, 0%, 95%);
+  --transparent-white: hsla(0, 0%, 100%, 0.75);
+
+  --fs-13: 0.813rem;
+	--fs-14: 0.875rem;
+	--fs-16: 1rem;
+	--fs-32: 2rem;
+  --fw-400: 400;
+  --fw-700: 700;
+  --ff-lexend-deca: 'Lexend Deca', sans-serif;
+  --ff-big-shoulders-display: 'Big Shoulders Display', cursive;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+Body {
+	text-rendering: optimizeSpeed;
+	/*display: grid;*/
+	/*place-items: center;*/
+  line-height: 1.7;
+  Font size: 0.9375rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+section {
+  position: relative;
+  width: 17.5rem;
+  height: 28.125rem;
+  
+}
+
+.sedans {
+  background-color: var(--bright-orange);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.suvs {
+  background-color: var(--dark-cyan);
+}
+
+.luxury {
+  background-color: var(--very-dark-cyan);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+section img {
+  position: absolute;
+  top: 3.125rem;
+  left: 3.125rem;
+}
+
+article h1 {
+  position: absolute;
+  top: 7.5rem;
+  left: 3.125rem;
+  text-transform: uppercase;
+  font-family: var(--ff-big-shoulders-display);
+  font-weight: 700;
+  font-size: var(--fs-32);
+  color: var(--very-light-gray);
+}
+
+article p {
+  position: absolute;
+  top: 11.875rem;
+  left: 3.125rem;
+  font-family: var(--ff-lexend-deca);
+  font-size: var(--fs-14);
+  font-weight: 400;
+  color: var(--transparent-white);
+  margin-right: 2.852rem;
+}
+
+.btn button {
+  position: absolute;
+  top: 23.125rem;
+  left: 3.125rem;
+  width: 8.4375rem;
+  height: 2.9375rem;
+  font-family: var(--ff-lexend-deca);
+  font-weight: 400;
+  border: none;
+  border-radius: 2.1875rem;
+  cursor: pointer;
+  box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 5%);
+}
+
+main .btn button:hover {
+  color: #fff;
+  border: 0.125rem solid #fff;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.sedans .btn button {
+  color: var(--bright-orange);
+}
+
+.suvs .btn button {
+  color: var(--dark-cyan);
+}
+
+.luxury .btn button {
+  color: var(--very-dark-cyan);
+}
+
+
+@media only screen and (max-width: 710px) {
+  main {
+    flex-direction: column;
+    margin-top: 1.875rem;
+  }
+
+  .sedans {
+    background-color: var(--bright-orange);
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+  
+  .luxury {
+    background-color: var(--very-dark-cyan);
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
