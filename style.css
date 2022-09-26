@@ -67,7 +67,7 @@ section img {
   left: 3.125rem;
 }
 
-article h1 {
+article h1, h2, h3 {
   position: absolute;
   top: 7.5rem;
   left: 3.125rem;
