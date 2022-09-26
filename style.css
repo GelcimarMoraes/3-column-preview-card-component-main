@@ -67,7 +67,7 @@ section img {
   left: 3.125rem;
 }
 
-article h1, h2, h3 {
+h1, h2, h3 {
   position: absolute;
   top: 7.5rem;
   left: 3.125rem;
@@ -78,7 +78,7 @@ article h1, h2, h3 {
   color: var(--very-light-gray);
 }
 
-article p {
+p {
   position: absolute;
   top: 11.875rem;
   left: 3.125rem;
