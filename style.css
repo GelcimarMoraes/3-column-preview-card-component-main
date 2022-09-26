@@ -28,8 +28,6 @@
 
 Body {
 	text-rendering: optimizeSpeed;
-	/*display: grid;*/
-	/*place-items: center;*/
   line-height: 1.7;
   Font size: 0.9375rem;
 }
