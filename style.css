@@ -30,6 +30,7 @@ Body {
 	text-rendering: optimizeSpeed;
   line-height: 1.7;
   Font-size: 0.9375rem;
+  background-color: #F2F2F2;
 }
 
 main {
@@ -124,15 +125,14 @@ main .btn button:hover {
   main {
     flex-direction: column;
     margin-top: 1.875rem;
+    
   }
 
   .sedans {
-    background-color: var(--bright-orange);
     border-radius: 0.5rem 0.5rem 0 0;
   }
   
   .luxury {
-    background-color: var(--very-dark-cyan);
     border-radius: 0 0 0.5rem 0.5rem;
   }
 }
