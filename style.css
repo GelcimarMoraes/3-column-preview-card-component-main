@@ -16,7 +16,7 @@
   --fw-400: 400;
   --fw-700: 700;
   --ff-lexend-deca: 'Lexend Deca', sans-serif;
-  --ff-big-shoulders-display: 'Big Shoulders Display', cursive;
+  --ff-big-shoulders-display: 'Big Shoulders Display', sans-serif;
 }
 
 /* RESET */
@@ -88,7 +88,7 @@ p {
   margin-right: 2.852rem;
 }
 
-.btn button {
+button {
   position: absolute;
   top: 23.125rem;
   left: 3.125rem;
@@ -102,21 +102,22 @@ p {
   box-shadow: 5px 5px 15px 5px rgb(0 0 0 / 5%);
 }
 
-main .btn button:hover {
+main button:hover {
   color: #fff;
   border: 0.125rem solid #fff;
   background-color: rgba(255, 255, 255, 0);
+  transition: background-color 2s;
 }
 
-.sedans .btn button {
+.sedans button {
   color: var(--bright-orange);
 }
 
-.suvs .btn button {
+.suvs button {
   color: var(--dark-cyan);
 }
 
-.luxury .btn button {
+.luxury button {
   color: var(--very-dark-cyan);
 }
 
